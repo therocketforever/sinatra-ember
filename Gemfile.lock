@@ -1,0 +1,27 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    commonjs (0.2.6)
+    haml (4.0.0)
+      tilt
+    less (2.2.2)
+      commonjs (~> 0.2.6)
+    rack (1.5.2)
+    rack-protection (1.4.0)
+      rack
+    sinatra (1.3.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.3)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-handlebars (0.0.4)
+      sinatra
+    tilt (1.3.4)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  haml
+  less
+  sinatra
+  sinatra-handlebars
